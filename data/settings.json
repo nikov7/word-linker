@@ -1,0 +1,51 @@
+{
+  "url":"https://www.bing.com/search?q=",
+  "words": [
+    "minimum requirements",
+    "recommended requirements",
+    "iphone 16 pro",
+    "iphone 13 starlight",
+    "iphone 15 pro max",
+    "iphone 12 pro"
+  ],
+  "options": {
+    "linksPerPage": 3,
+    "minNodeWordCount": 6,
+    "maxDistance": 1,
+    "defaultSelector": true
+  },
+  "sites": {
+    "default": {
+      "selector": "p",
+      "color": ""
+    },
+    "www.reddit.com": {
+      "selector": "div#-post-rtjson-content p, shreddit-post div.text-neutral-content p",
+      "color": ""
+    },
+    "www.youtube.com": {
+      "selector": "yt-attributed-string#content-text",
+      "color": "#1E90FF"
+    },
+    "www.tiktok.com": {
+      "selector": "[data-e2e='comment-level-1'], [data-e2e='comment-level-2']",
+      "color": "#1E90FF"
+    },
+    "www.facebook.com": {
+      "selector": "div > span > div > div[dir='auto']",
+      "color": ""
+    },
+    "www.instagram.com": {
+      "selector": "div > div > div > span[dir='auto']",
+      "color": ""
+    },
+    "x.com": {
+      "selector": "section > div[aria-label='Timeline: Conversation'] > div > div:first-child div[dir='auto'] > span",
+      "color": ""
+    },
+    "www.pinterest.com": {
+      "selector": "div > div > div > div[data-test-id='author-and-comment-container'] span.text-container",
+      "color": ""
+    }
+  }
+}
